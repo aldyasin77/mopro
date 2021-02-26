@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Hallo.net</string>
+    <string name="hallo_selamat_datang">Hallo Selamat Datang</string>
+    <string name="string_login" />
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="Login">LOGIN</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+</resources>
