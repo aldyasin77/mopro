@@ -6,17 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
-    <TextView
+    <ImageView
         android:id="@+id/header"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
         android:gravity="center_horizontal"
-        android:padding="20dp"
-        android:text="Selamat Datang"
-        android:textColor="@color/teal_200"
-        android:textSize="12pt"
-        android:textStyle="normal|bold"
+        android:src="@mipmap/ic_logo3_foreground"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
     <ScrollView
@@ -34,9 +33,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:background="@color/teal_200"
             android:orientation="vertical"
-            android:padding="50dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
 
@@ -49,7 +48,7 @@
                 android:gravity="center_horizontal"
                 android:padding="20dp"
                 android:text="@string/Login"
-                android:textColor="#ffffff"
+                android:textColor="@color/red"
                 android:textSize="12pt"
                 android:textStyle="normal|bold"
                 app:layout_constraintBottom_toBottomOf="@id/Email"
@@ -62,7 +61,7 @@
                 android:hint="@string/Email"
                 android:importantForAutofill="no"
                 android:inputType="textEmailAddress"
-                android:textColorHint="#ffffff" />
+                android:textColorHint="@color/red" />
 
             <EditText
                 android:id="@+id/Password"
@@ -72,7 +71,7 @@
                 android:hint="@string/Password"
                 android:importantForAutofill="no"
                 android:inputType="textPassword"
-                android:textColorHint="#ffffff" />
+                android:textColorHint="@color/red" />
 
             <Button
                 android:id="@+id/btnLogin"
@@ -80,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/button_rounded"
+                android:background="@color/red"
                 android:text="@string/login" />
 
             <ProgressBar
