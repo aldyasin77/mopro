@@ -9,4 +9,9 @@
     <string name="Email">Email</string>
     <string name="Password">Password</string>
     <string name="todo">TODO</string>
+    <string name="bandung">Bandung</string>
+    <string name="_90_u00b0">90°</string>
+    <string name="_78_u00b0">78°</string>
+    <string name="light_rain">light rain</string>
+    <string name="today_marth_05">Today, Marth 05</string>
 </resources>
